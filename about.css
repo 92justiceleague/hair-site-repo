@@ -1,0 +1,21 @@
+body{
+    background: #DEB6AB;
+}
+.border1{
+    border: 2px solid #AC7088;
+}
+.border2 {
+    border: 2px solid #AC7088;
+}
+.main-container{
+    height: 100%;
+}
+header {
+    height: 150px;
+}
+section {
+    height: 350px;
+}
+section:nth-child(2){
+    height: 280px;
+}
