@@ -1,5 +1,5 @@
 body {
-    background: lightpink;
+    background: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: normal;
@@ -9,27 +9,41 @@ body {
     padding: 0;
 }
 
-header ul {
-    margin: 0;
-    padding: 56px 0 0;
+#header img {
+    height: 328px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 50%;
 }
 
-header ul li {
-   display: inline;
-   list-style: none;
-   margin: 0;
-   padding: 0 19px;
-
+#navigation li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0 19px;
+    text-align: center;
 }
 
-header ul li a {
-    color: blanchedalmond;
-    display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
-    padding: 0 0 3px;
-    text-decoration: none;
+#navigation li a {
+    color: #252525;
+	display: inline-block;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 3px;
+	text-transform: uppercase;
+    
+}
+
+#body h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: palevioletred;
     text-transform: uppercase;
+    background-color: black;
 }
+
