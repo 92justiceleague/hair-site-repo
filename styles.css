@@ -1,5 +1,5 @@
 body{
-    background: #DEB6AB;
+    background: white;
 }
 .main-container{
     height: 100%;
@@ -11,7 +11,7 @@ section {
     height: 350px;
 }
 section:nth-of-type(2){
-    height: 280px;
+    height: 30px;
 }
 header {
     display: flex;
@@ -30,7 +30,7 @@ nav {
 }
 
 header nav ul {
-    width: 100%;
+    width: 200%;
     display: flex;
     justify-content: space-around;
 }
@@ -43,6 +43,9 @@ section:nth-of-type(1){
     justify-content: center;
     align-items: center;
    padding-right: 40px;
+   background: #DEB6AB;
+   background-image: url('./Images/CGCI.PNG');
+   background-size:contain
 }
 
 section:nth-of-type(1) div.section-text {
@@ -50,4 +53,62 @@ section:nth-of-type(1) div.section-text {
     width: fit-content;
     margin-left: 300px;
 
+}
+
+section:nth-of-type(1) div.section-text p {
+    background: #AC7088;
+    color: #DEB6AB;
+    width: fit-content;
+    padding: 6px 16px;
+    margin-bottom: 6px;
+}
+section:nth-of-type(1) div.section-text p:not(:nth-of-type(1)) {
+    background: #DEB6AB;
+    color: whitesmoke;
+    width: fit-content;
+    padding: 6px 16px;
+}
+
+section:nth-of-type(1) div.section-text button {
+    background: #ac7088;
+    color: whitesmoke;
+    border: none;
+    height: 36px;
+    padding: 0 10px;
+}
+
+div ul {
+    margin: 0 auto;
+	overflow: hidden;
+	padding: 24px 0 0;
+	width: 960px;
+    display: flex;
+    justify-content: space-around;
+
+}
+div ul li {
+    display: block;
+    float: left;
+    margin: 0 10px 20px;
+    padding: 0;
+    width: 300px;
+}
+div ul li a {
+    color: #AC7088;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div ul li a img {
+    border: 2px solid #DEB6AB;
+    display: block;
+    margin: 0;
+    padding: 0;
+    opacity: .9;
 }
